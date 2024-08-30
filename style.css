@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/* .header{
+background-image: url("./images/HG.png");
+   
+position: absolute;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+    
+    
+} */
+
+.header {
+    background-image: url("./images/HG.png");
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 3rem;
+    padding-top: 2rem;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    gap: 1rem;
+    
+    
+}
+li  a{
+    color: azure;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    
+}
+.logo{
+    z-index: 1;
+   
+    height: 24;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    gap: 5px;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+  
+}
+.account img{
+    height: 24px;
+    width: 24px;
+}
+.div3{
+    background-image: url("./images/BG\ Hero.png");
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* position: relative; */
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+ 
+  
+}
+
+.div1{
+    background-image: url("./images/MG.png");
+    width: 100%;
+    /* position: relative; */
+    top: 20rem;
+    height: 100rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+
+}
+
+.div2{
+    background-image: url("./images/VG.png");
+    width: 100%;
+    top: 55rem;
+    /* position: relative; */
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: block;
+}
+
+.div4{
+    background-image: url("./images/BG\ Content.png");
+    width: 100%;
+    top: 70rem;
+    /* position: relative; */
+    position: absolute;
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+   display: block;
+}
+
+.heading{
+   padding: 10rem 3rem;
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr; */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.heading p {
+    color:#FBD784;
+    font-size: 18px;
+
+    
+    
+}
+.heading h1{
+    color: white;
+    
+    font-size: 70px;
+}
+.social{
+    z-index: 1;
+}
+.scroll{
+    color: white;
+
+}
+
+.date{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.date span{
+    font-size: 18px;
+}
+body{
+    background-color:#0B1D26;
+    height: 500px;
+   
+}
+
+.cards{
+    padding-top: 1070px;
+    gap: 5rem;
+   display: grid;
+
+    
+}
+.container {  
+    width: 70%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 20px;  
+   }  
+
+   .section1-count1{
+    background-image: url("./images/Equipment1.png");
+    background-repeat: no-repeat;
+    background-size: 8rem;
+   }
+   .section2-count2{
+    background-image: url("./images/Equipment.png");
+    background-repeat: no-repeat;
+    background-size: 8rem;
+   }
+
+   .section3-count3{
+    background-image: url("./images/Equipment3.png");
+    background-repeat: no-repeat;
+    background-size: 8rem;
+   }
+.get{
+    margin-top: 2rem;
+    margin-left: 7rem;
+
+}
+   .section1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   }
+
+   .image1{
+  width: 100%;
+  height:30rem;
+   }
+   .section1 span{
+    color:#FBD784;
+    font-size: 18px;
+   }
+
+   .section1 h2{
+    color: white;
+    margin-top:1rem ;
+    font-size: 3rem;
+    font-size: 64px;
+   }
+
+   .section1 p{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+
+   .section1 a{
+    text-decoration: none;
+    color: white;
+    
+   }
+ 
+   /* .footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    padding-top: 3rem;
+   } */
+
+   h3{
+    color: rgb(229, 174, 9);
+   }
+
+   .footer1{
+    display: flex;
+    flex-direction: row;
+    
+   }
+
+   .footer1 p{
+    color: white;
+    margin-top: 1rem;
+   }
+   .links-group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8.5rem;
+   }
+   .copy{
+    color: rgb(137, 147, 147);
+    margin-top: 2rem;
+   }
+
+   .links ul{
+    margin-left: 5rem;
+    display: flex;
+   flex-direction: column;
+   gap: 5px;
+   
+   }
+ 
